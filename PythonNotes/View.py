@@ -17,7 +17,7 @@ def input_data():
     dict["titleNote"] = input("Введите заголовок заметки - ")
     dict["textNote"] = input("Введите текст заметки - ")
     dict["dateTime"] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    return dict;
+    return dict
 
 def input_search():
     data = input("Введите id для поиска заметки - ")
